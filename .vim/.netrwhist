@@ -1,8 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =6
-let g:netrw_dirhist_1='/home/twittumz/git/arch-dotfiles/.vim'
-let g:netrw_dirhist_2='/home/twittumz/git/arch-dotfiles'
-let g:netrw_dirhist_3='/home/twittumz/git'
-let g:netrw_dirhist_4='/home/twittumz/git/arch-dotfiles'
-let g:netrw_dirhist_5='/home/twittumz/git/arch-dotfiles/.vim'
-let g:netrw_dirhist_6='/home/twittumz/git/arch-dotfiles/.vim/.vim'
