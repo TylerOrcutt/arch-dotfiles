@@ -17,8 +17,7 @@ endif
 "Plug 'bling/vim-airline'
 "Plug 'tpope/vim-commentary'
 "Plug 'vifm/vifm.vim'
-"icall plug#end()
-
+"call plug#end()
 
 set bg=light
 set go=a
