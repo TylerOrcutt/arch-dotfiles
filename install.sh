@@ -10,3 +10,4 @@ ln -s ~/git/arch-dotfiles/.config/i3 ~/.config/i3
 
 #scripts
 ln -s ~/git/arch-dotfiles/.scripts/statusbar/ ~/.scripts/statusbar
+ln -s ~/git/arch-dotfiles/.scripts/i3cmds/ ~/.scripts/i3cmds
