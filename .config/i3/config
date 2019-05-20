@@ -31,11 +31,14 @@ for_window [instance="dropdown_tmuxdd"] border pixel 3
 for_window [instance="dropdown_dropdowncalc"] border pixel 2
 for_window [instance="dropdown_*"] move position center
 
+
+for_window [instance="trdropdown"] floating enable
+
 # #---Starting External Scripts---# #
 # mpd startup
 exec --no-startup-id mpd
 # Setting the background:
-exec --no-startup-id setbg
+exec --no-startup-id ~/.scripts/tools/setbg.sh
 # Starts dunst for notifications:
 exec --no-startup-id dunst
 # Composite manager:
@@ -48,6 +51,9 @@ exec --no-startup-id unclutter
 exec_always --no-startup-id mpdupdate
 # Podboat automatic queue and download
 exec_always --no-startup-id podentr
+
+#fix Monitors
+exec --no-startup-id ~/fixmonitors.sh
 
 bar {
 	font pango:mono 10
