@@ -7,8 +7,14 @@
 "endif
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
+filetype plugin indent on
+set title
+set tabstop=8
+set softtabstop=8
+set shiftwidth=8
+set noexpandtab
 " set the runtime path to include Vundle and initialize
+colorscheme vorange 
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
@@ -57,7 +63,6 @@ set mouse=a
 set nohlsearch
 set clipboard=unnamedplus
 "
-colorscheme vorange
 let g:airline_theme="vorange"
 "" Some basics:
 "	nnoremap c "_c

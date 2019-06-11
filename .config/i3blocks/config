@@ -2,6 +2,11 @@ command=~/.scripts/statusbar/$BLOCK_NAME
 separator_block_width=15
 markup=pango
 
+[transmissionRC]
+interval=30
+label=T:
+command=~/git/Transmission-RC/i3Blocks/transmissionRC
+
 [clock]
 #label=📅
 interval=30
